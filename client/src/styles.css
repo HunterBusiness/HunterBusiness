@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-md bg-navy text-white px-4 py-2 font-medium hover:bg-navy/90 transition-colors;
+}
+
+.container { @apply mx-auto max-w-6xl px-4; }
+
+
